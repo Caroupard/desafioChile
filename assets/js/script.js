@@ -23,3 +23,15 @@ function myFunction3() {
     x.style.display = "none";
   }
 }
+
+// boton enviar
+function validateForm() {
+  let x = document.forms["formulario"]["fname"].value;
+  if (x == "") {
+    alert("formulario enviado");
+    return false;
+  }
+}
+
+
+
